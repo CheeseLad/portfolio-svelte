@@ -1,0 +1,26 @@
+[
+  {
+    "title": "DCU Media Production Society Website",
+    "description": "I developed a website for the DCU Media Production Society. The website is built using Django and Bootstrap. It features a blog, events page, and a gallery. The website is hosted on Heroku and uses a PostgreSQL database. I also developed a REST API for the website which allows the society to easily update the website content using a mobile app. The website is fully responsive and has a clean and modern design.",
+    "image": "avatar.png",
+    "techStack": ["Django", "Bootstrap", "Rest API"],
+    "demoLink": "https://dcumps.ie",
+    "codeLink": "https://github.com/DCUMPS/dcumps-website-django"
+  },
+  {
+    "title": "Redbrick Email Generator",
+    "description": "I developed an email generator for Redbrick, the DCU Networking Society. The email generator is built using Python, Jinja, BeautifulSoup, and Flask. The email generator allows the society to easily create and send emails to their members. The email generator is hosted on the Redbrick server and uses a MySQL database. The email generator is fully responsive and has a clean and modern design.",
+    "image": "avatar.png",
+    "techStack": ["Python", "Jinja", "BeautifulSoup", "Flask"],
+    "demoLink": "https://generator.redbrick.dcu.ie/",
+    "codeLink": "https://github.com/CheeseLad/Redbrick-Email-Generator"
+  },
+  {
+    "title": "DCU FotoSoc Website",
+    "description": "I developed a website for the DCU Photography Society. The website is built using Django and Bootstrap. It features a blog, events page, and a gallery. The website is hosted on Heroku and uses a PostgreSQL database. I also developed a REST API for the website which allows the society to easily update the website content using a mobile app. The website is fully responsive and has a clean and modern design.",
+    "image": "avatar.png",
+    "techStack": ["React.js", "Tailwind", "Firebase"],
+    "demoLink": "https://example.com/project3-demo",
+    "codeLink": "https://github.com/example/project3"
+  }
+]

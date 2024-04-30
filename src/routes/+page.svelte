@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<!-- App.svelte -->
+<script>
+	import Experience from './experience.svelte';
+	import Footer from './footer.svelte';
+import Intro from './intro.svelte';
+	import Projects from './projects.svelte';
+</script>
+
+<div>
+  <Intro />
+  <Projects />
+  <Experience />
+  <Footer />
+</div>
