@@ -51,7 +51,7 @@
   <h2 class="text-3xl font-bold mb-4 text-center">Experience</h2>
   
   {#each experienceData as experience}
-    <div class="mx-32 px-4 flex items-center mb-8 bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg hover:transform hover:scale-105 transition duration-300">
+    <div class="mx-12 px-4 flex items-center mb-8 bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg hover:transform hover:scale-105 transition duration-300">
       <div class="flex-1 mr-4">
         <p class="font-bold">{experience.year}</p>
         <p class="text-lg">{experience.position}</p>

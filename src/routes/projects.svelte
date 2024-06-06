@@ -24,7 +24,7 @@
   <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
   
   {#each projectsRows as projectsRow}
-    <div class="flex flex-wrap mx-32">
+    <div class="flex flex-wrap mx-6">
       {#each projectsRow as project}
         <div class="w-full md:w-1/3 px-4 mb-8 ">
             <div class="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg hover:transform hover:scale-105 transition duration-300 block">
@@ -45,7 +45,7 @@
                     </a>
                     <a href={project.demoLink} target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300">
                       <FontAwesomeIcon icon={faPenToSquare} />
-                      Read More
+                      Blog
                     </a>
                   </div>
                   <div class="flex justify-end">
