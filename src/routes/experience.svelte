@@ -51,8 +51,8 @@
   <h2 class="text-3xl font-bold mb-4 text-center">Experience</h2>
   
   {#each experienceData as experience}
-    <div class="mx-12 px-4 flex items-center mb-8 bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg hover:transform hover:scale-105 transition duration-300">
-      <div class="flex-1 mr-4">
+    <div class="mx-6 flex items-center mb-8 bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg hover:transform hover:scale-105 transition duration-300">
+      <div class="flex-1 mx-4a">
         <p class="font-bold">{experience.year}</p>
         <p class="text-lg">{experience.position}</p>
         <ul class="list-disc list-inside">
@@ -60,10 +60,6 @@
             <li>{desc}</li>
           {/each}
         </ul>
-      </div>
-      <div class="w-32 h-32 flex items-center justify-center bg-white shadow-md rounded-lg mr-4">
-        <!-- Replace the placeholder image URL with your actual company logo -->
-        <img src="avatar.png" alt="Company Logo" class="w-full h-full object-contain">
       </div>
       <div class="flex">
         {#each experience.socialMediaLinks as link}

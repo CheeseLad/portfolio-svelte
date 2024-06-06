@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Blog Post 1",
+    "description": "This is a blog post",
+    "techStack": ["Django", "Bootstrap", "Rest API"],
+    "demoLink": "https://dcumps.ie"
+  },
+  {
+    "title": "Blog Post 2",
+    "description": "This is a blog post",
+    "techStack": ["Django", "Bootstrap", "Rest API"],
+    "demoLink": "https://dcumps.ie"
+  },
+  {
+    "title": "Blog Post 3",
+    "description": "This is a blog post",
+    "techStack": ["Django", "Bootstrap", "Rest API"],
+    "demoLink": "https://dcumps.ie"
+  }
+]
