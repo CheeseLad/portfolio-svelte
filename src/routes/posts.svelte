@@ -1,12 +1,8 @@
-<!-- ProjectsSection.svelte -->
 <script>
-  // Import project data (replace this with your actual project data)
-  import PostData from './PostData.json';
-  import { faArrowUpRightFromSquare, faPenToSquare } from '@fortawesome/free-solid-svg-icons';
+  import PostData from '../data/posts.json';
+  import { faPenToSquare } from '@fortawesome/free-solid-svg-icons';
   import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
 
-
-  // Function to split the projects into rows of 3
   function chunkArray(array, size) {
     const result = [];
     for (let i = 0; i < array.length; i += size) {
@@ -15,7 +11,6 @@
     return result;
   }
 
-  // Split projects into rows of 3
   const projectsRows = chunkArray(PostData, 3);
 </script>
 

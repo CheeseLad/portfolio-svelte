@@ -16,7 +16,3 @@
     </a>
   </div>
 </footer>
-
-<style>
-  /* You may need to include styles for FontAwesome icons */
-</style>
