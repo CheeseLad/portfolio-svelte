@@ -1,20 +1,20 @@
 [
   {
-    "title": "Blog Post 1",
+    "title": "Experiences, Algorithms and Improvements",
     "description": "This is a blog post",
-    "techStack": ["Django", "Bootstrap", "Rest API"],
+    "techStack": ["CA115"],
     "demoLink": "https://dcumps.ie"
   },
   {
-    "title": "Blog Post 2",
+    "title": "Business Plan Recommendations",
     "description": "This is a blog post",
-    "techStack": ["Django", "Bootstrap", "Rest API"],
+    "techStack": ["CA115"],
     "demoLink": "https://dcumps.ie"
   },
   {
-    "title": "Blog Post 3",
+    "title": "CO2, What can we do?",
     "description": "This is a blog post",
-    "techStack": ["Django", "Bootstrap", "Rest API"],
+    "techStack": ["CA115"],
     "demoLink": "https://dcumps.ie"
   }
 ]

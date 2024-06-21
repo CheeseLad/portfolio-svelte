@@ -37,7 +37,7 @@
                   <div class="flex justify-start">
                     <a href={project.demoLink} target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mr-4">
                       <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                      Demo
+                      View
                     </a>
                     <a href={project.demoLink} target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300">
                       <FontAwesomeIcon icon={faPenToSquare} />
