@@ -1,4 +1,3 @@
-<!-- App.svelte -->
 <script>
 	import Experience from './experience.svelte';
 	import Footer from './footer.svelte';

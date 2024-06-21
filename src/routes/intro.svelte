@@ -2,7 +2,7 @@
   import { faPenToSquare, faEnvelope, faFileLines } from '@fortawesome/free-solid-svg-icons';
   import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
   import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
-
+  import { base } from '$app/paths';
 </script>
 
 
@@ -25,11 +25,11 @@
     </a>
   </div>
   <div class="pt-6">
-    <a href="/blog" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1">
+    <a href="{base}/blog" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1">
       <FontAwesomeIcon icon={faFileLines} />
       Résumé / CV
     </a>
-  <a href="/blog" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1">
+  <a href="{base}/blog" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1">
     <FontAwesomeIcon icon={faPenToSquare} />
     Read My Blog
   </a>

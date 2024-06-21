@@ -1,0 +1,17 @@
+node_modules
+build
+old
+.dockerignore
+.dockerfile
+.env
+.git
+.gitignore
+npm-debug.log
+yarn-error.log
+README.md
+.prettierrc
+.prettierignore
+.npm
+backend
+.svelte-kit
+.github
