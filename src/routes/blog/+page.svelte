@@ -1,11 +1,12 @@
 <script>
-	import Footer from '../footer.svelte';
-  import Intro from '../intro.svelte';
-	import Posts from '../posts.svelte';
+	import Posts from './src/components/posts.svelte';
+  let title = 'Blog Page';
 </script>
 
+<svelte:head>
+  <title>{title}</title> 
+</svelte:head>
+
 <div>
-  <Intro />
   <Posts />
-  <Footer />
 </div>

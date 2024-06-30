@@ -1,15 +1,18 @@
 <script>
-	import Experience from './experience.svelte';
-	import Footer from './footer.svelte';
-  import Intro from './intro.svelte';
-	import Posts from './posts.svelte';
-	import Projects from './projects.svelte';
+	import Experience from '../components/experience.svelte';
+	import Posts from '../components/posts.svelte';
+	import Projects from '../components/projects.svelte';
+  let title = "Jake Farrell's Portfolio";
 </script>
 
+<svelte:head>
+  <title>{title}</title>
+	<meta name="description" content="Jake Farrell's Portfolio" /> 
+</svelte:head>
+
 <div>
-  <Intro />
   <Projects />
   <Experience />
   <Posts />
-  <Footer />
 </div>
+
