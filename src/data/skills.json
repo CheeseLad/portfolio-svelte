@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Programming Languages",
+    "icons": "https://skillicons.dev/icons?i=bash,c,java,md,py,r&perline=3&theme=dark"
+  },
+  {
+    "title": "Web Development",
+    "icons": "https://skillicons.dev/icons?i=html,css,js,sqlite,mysql,wordpress&perline=3&theme=dark"
+  },
+  {
+    "title": "Frameworks",
+    "icons": "https://skillicons.dev/icons?i=django,flask,bootstrap,react,svelte,tailwind&perline=3&theme=dark"
+  },
+  {
+    "title": "Tools",
+    "icons": "https://skillicons.dev/icons?i=cloudflare,docker,git,githubactions,linux,vscode&perline=3&theme=dark"
+  }
+]

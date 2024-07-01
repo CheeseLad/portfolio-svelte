@@ -1,6 +1,6 @@
 [
   {
-    "title": "Homelab, VPS and Documentation Website",
+    "title": "Homelab, VPS and Documentation",
     "description": "I currently operate two servers, one at home and one hosted online. My home server acts as a file server, VPN, photo library and media server along with many different services running on Docker. My VPS contains more Docker services such as hosting for my personal website, my Discord bot, analytics, image organisation and more.",
     "image": "homelab.webp",
     "techStack": ["Docker", "Debian", "MkDocs"],
@@ -33,7 +33,7 @@
   },
   {
     "title": "Clubs & Societies API",
-    "description": "Allows you to get information about societies and clubs from university websites using the Assure Memberships Platform for use in other applications.",
+    "description": "Allows you to get information about societies and clubs from university websites using the Assure Memberships Platform for use in other applications. This API is utilised in my other projects such as the DCU Media Production Society website and the DCU Fotosoc website, displaying upcoming event information to members.",
     "image": "csapi.webp",
     "techStack": ["Python", "BeautifulSoup", "Flask"],
     "demoLink": "https://clubsandsocs.jakefarrell.ie/",

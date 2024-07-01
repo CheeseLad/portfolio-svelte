@@ -1,7 +1,9 @@
 <script>
-	import Experience from '../components/experience.svelte';
+	import Contact from '../components/contact.svelte';
+  import Experience from '../components/experience.svelte';
 	import Posts from '../components/posts.svelte';
 	import Projects from '../components/projects.svelte';
+	import Skills from '../components/skills.svelte';
   let title = "Jake Farrell's Portfolio";
 </script>
 
@@ -13,6 +15,8 @@
 <div>
   <Projects />
   <Experience />
-  <Posts />
+  <Skills />
+  <!--<Posts />
+  <Contact />-->
 </div>
 

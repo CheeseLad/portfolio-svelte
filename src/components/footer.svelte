@@ -4,15 +4,15 @@
   import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
 
   // Your email address
-  const name = 'Jake Farrell';
+  const name = 'Made with ❤ by Jake Farrell';
   const emailAddress = 'jake_farrell@outlook.com';
 </script>
 
 <footer class="bg-gray-800 text-white py-4">
   <div class="container mx-auto flex justify-center items-center">
     <p class="text-xl font-semibold">{name}</p>
-    <a href={`mailto:${emailAddress}`} class="ml-2 text-xl">
+    <!--<a href={`mailto:${emailAddress}`} class="ml-2 text-xl">
       <FontAwesomeIcon icon={faEnvelope} />
-    </a>
+    </a>-->
   </div>
 </footer>

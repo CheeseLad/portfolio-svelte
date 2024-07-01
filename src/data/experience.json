@@ -1,44 +1,46 @@
 [
   {
-    "year": "2018 - Present",
-    "position": "Software Engineer",
+    "year": "March 2024 - Present",
+    "position": "Chairperson",
+    "company": "Redbrick",
+    "link": "https://redbrick.dcu.ie",
+    "image": "redbrick_logo.webp",
     "description": [
-      "Developed and maintained web applications using React.js and Node.js.",
-      "Collaborated with cross-functional teams to deliver high-quality software products.",
-      "Implemented responsive UI designs to improve user experience."
-    ],
-    "socialMediaLinks": [
-      { "icon": "fab fa-twitter", "url": "/" },
-      { "icon": "fab fa-linkedin", "url": "/" },
-      { "icon": "fab fa-github", "url": "/" }
+      "Responsible for running the weekly committee meetings, ensuring order and time-keeping",
+      "Overseeing the running of the society as a whole and enabling each member of the committee to do their best work"
     ]
   },
   {
-    "year": "2016 - 2018",
-    "position": "Frontend Developer",
+    "year": "March 2024 - Present",
+    "position": "Webmaster / MERN Stack Developer",
+    "company": "DCU Fotosoc",
+    "link": "https://dcufotosoc.jakefarrell.ie",
+    "image": "fotosoc_logo.webp",
     "description": [
-      "Designed and developed user interfaces for mobile and web applications.",
-      "Worked closely with UX designers to ensure intuitive user interaction.",
-      "Optimized website performance and accessibility."
-    ],
-    "socialMediaLinks": [
-      { "icon": "fab fa-twitter", "url": "/" },
-      { "icon": "fab fa-linkedin", "url": "/" },
-      { "icon": "fab fa-github", "url": "/" }
+      "Developing a full stack website built using the MERN ( MongoDB, Express, React, Node) to showcase all aspects of DCU Fotosoc",
+      "Utilising the Stripe API to enable DCU Fotosoc to sell merchandise, our yearly connection issue, and more!"
     ]
   },
   {
-    "year": "2014 - 2016",
-    "position": "Software Developer",
+    "year": "April 2023 - Present",
+    "position": "Webmaster / Django & WordPress Developer",
+    "company": "DCU Media Production Society",
+    "link": "https://dcumps.ie",
+    "image": "dcumps_logo.webp",
     "description": [
-      "Developed software solutions for clients in various industries.",
-      "Collaborated with project managers to deliver projects on time and within budget.",
-      "Provided technical support and training to end users."
-    ],
-    "socialMediaLinks": [
-      { "icon": "fab fa-twitter", "url": "/" },
-      { "icon": "fab fa-linkedin", "url": "/" },
-      { "icon": "fab fa-github", "url": "/" }
+      "Creating a custom website for DCU’s Media Production Society",
+      "Technical support for society members"
+    ]
+  },
+  {
+    "year": "October 2022 - Present",
+    "position": "Class Representative - COMSCI1, COMSCI2",
+    "company": "DCU Students' Union",
+    "link": "https://dcustudentlife.ie",
+    "image": "dcusu_logo.webp",
+    "description": [
+      "Involved with solving any problems that the class group may have.",
+      "Relaying important information / changes to the class group"
     ]
   }
 ]
