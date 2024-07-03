@@ -25,7 +25,7 @@
     </a>
   </div>
   <div class="pt-6">
-    <a href="{base}/Jake_Farrell_CV_2024.pdf" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1">
+    <a href="mailto:jake_farrell@outlook.com" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1">
       <FontAwesomeIcon icon={faEnvelope} />
       Contact Me
     </a>
