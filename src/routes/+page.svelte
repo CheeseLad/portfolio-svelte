@@ -9,7 +9,8 @@
 
 <svelte:head>
   <title>{title}</title>
-	<meta name="description" content="Jake Farrell's Portfolio" /> 
+	<meta name="description" content="Jake Farrell's Portfolio" />
+  <script defer data-domain="jakefarrell.ie" src="https://plausible.jakefarrell.ie/js/script.js"></script> 
 </svelte:head>
 
 <div>

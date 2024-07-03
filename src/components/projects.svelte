@@ -37,12 +37,12 @@
                   <div class="flex justify-start">
                     <a href={project.demoLink} target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mr-4">
                       <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                      View
+                      View Project
                     </a>
-                    <a href={project.demoLink} target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300">
+                    <!--<a href={project.demoLink} target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300">
                       <FontAwesomeIcon icon={faPenToSquare} />
                       Blog
-                    </a>
+                    </a>-->
                   </div>
                   <div class="flex justify-end">
                     <a href={project.codeLink} target="_blank" rel="noopener noreferrer" class="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded-md transition duration-300">

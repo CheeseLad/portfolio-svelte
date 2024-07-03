@@ -26,13 +26,17 @@
   </div>
   <div class="pt-6">
     <a href="{base}/Jake_Farrell_CV_2024.pdf" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1">
+      <FontAwesomeIcon icon={faEnvelope} />
+      Contact Me
+    </a>
+    <!--<a href="{base}/Jake_Farrell_CV_2024.pdf" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1">
       <FontAwesomeIcon icon={faFileLines} />
       Résumé / CV
-    </a>
-  <!--<a href="{base}/blog" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1">
+    </a>-->
+  <a href="https://docs.jakefarrell.ie" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1">
     <FontAwesomeIcon icon={faPenToSquare} />
-    Read My Blog
-  </a>-->
+    Homelab Docs
+  </a>
 </div>
 </div>
 
