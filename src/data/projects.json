@@ -1,7 +1,7 @@
 [
   {
     "title": "Homelab, VPS and Documentation",
-    "description": "I currently operate two servers, one at home and one hosted online. My home server acts as a file server, VPN, photo library and media server along with many different services running on Docker. My VPS contains more Docker services such as hosting for my personal website, my Discord bot, analytics, image organisation and more.",
+    "description": "I currently operate two servers, one at home and one hosted online. My home server acts as a file server, VPN, photo library and media server along with many different services running on Docker. My VPS contains more Docker services such as hosting for my personal website, my Discord bot, analytics, image organisation and other useful tools.",
     "image": "homelab.webp",
     "techStack": ["Docker", "Debian", "MkDocs"],
     "demoLink": "https://docs.jakefarrell.ie",
@@ -25,17 +25,17 @@
   },
   {
     "title": "Redbrick Email Generator",
-    "description": "I developed an email generator for Redbrick, the DCU Networking Society. The email generator is built using Python, Jinja, BeautifulSoup, and Flask. The email generator allows the society to easily create and send emails to their members. The email generator is hosted on the Redbrick server and uses a MySQL database. The email generator is fully responsive and has a clean and modern design.",
+    "description": "This tool allows the Redbrick committee to easily generate emails using HTML tags via BeautifulSoup and Jinja into a preconfigured format, and enables emails to be sent directly from the website using smtplib. The web UI was created using Tailwind CSS and is powered by Flask.",
     "image": "redbrick.webp",
-    "techStack": ["Python", "Jinja", "BeautifulSoup", "Flask", "STMP"],
-    "demoLink": "https://generator.jakefarrell.ie/",
+    "techStack": ["Python", "Jinja", "BeautifulSoup", "Flask"],
+    "demoLink": "https://redbrick.dcu.ie/",
     "codeLink": "https://github.com/CheeseLad/Redbrick-Email-Generator"
   },
   {
     "title": "Clubs & Societies API",
     "description": "Allows you to get information about societies and clubs from university websites using the Assure Memberships Platform for use in other applications. This API is utilised in my other projects such as the DCU Media Production Society website and the DCU Fotosoc website, displaying upcoming event information to members.",
     "image": "csapi.webp",
-    "techStack": ["Python", "BeautifulSoup", "Flask"],
+    "techStack": ["Python", "BeautifulSoup", "Flask", "Swagger"],
     "demoLink": "https://clubsandsocs.jakefarrell.ie/",
     "codeLink": "https://github.com/CheeseLad/clubsandsocs-api"
   }
