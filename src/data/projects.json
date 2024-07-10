@@ -28,7 +28,7 @@
     "description": "This tool allows the Redbrick committee to easily generate emails using HTML tags via BeautifulSoup and Jinja into a preconfigured format, and enables emails to be sent directly from the website using smtplib. The web UI was created using Tailwind CSS and is powered by Flask.",
     "image": "redbrick.webp",
     "techStack": ["Python", "Jinja", "BeautifulSoup", "Flask"],
-    "demoLink": "https://redbrick.dcu.ie/",
+    "demoLink": "https://redbrickgenerator.jakefarrell.ie",
     "codeLink": "https://github.com/CheeseLad/Redbrick-Email-Generator"
   },
   {
@@ -36,7 +36,7 @@
     "description": "Allows you to get information about societies and clubs from university websites using the Assure Memberships Platform for use in other applications. This API is utilised in my other projects such as the DCU Media Production Society website and the DCU Fotosoc website, displaying upcoming event information to members.",
     "image": "csapi.webp",
     "techStack": ["Python", "BeautifulSoup", "Flask", "Swagger"],
-    "demoLink": "https://clubsandsocs.jakefarrell.ie/",
+    "demoLink": "https://clubsandsocs.jakefarrell.ie",
     "codeLink": "https://github.com/CheeseLad/clubsandsocs-api"
   }
 ]

@@ -19,7 +19,7 @@
     "image": "fotosoc_logo.webp",
     "description": [
       "Developing a full stack website built using the MERN ( MongoDB, Express, React, Node) to showcase all aspects of DCU Fotosoc",
-      "Utilising the Stripe API to enable DCU Fotosoc to sell merchandise, our yearly connection issue, and more!"
+      "Utilising the Stripe API to allow for the sale of merchandise and yearly photo book"
     ]
   },
   {
@@ -29,8 +29,9 @@
     "link": "https://dcumps.ie",
     "image": "dcumps_logo.webp",
     "description": [
-      "Developed a custom website using Bootstrap & Django for DCU's Media Production Society",
-      "Developed a dynamic donation bar for our yearly 24-hour broadcast, rasing over €12,800 for Jack & Jill Children's Foundation",
+      "Developed a custom website using Bootstrap & Django for the society",
+      "Developed a dynamic donation bar for our yearly 24-Hour Broadcast which raised over €12,800 for Jack & Jill Children's Foundation",
+      "Configured an email system that provides committee members with professional emails",
       "Maintaining a WordPress website with over 6,000+ articles and over 13+ years of content for The College View newspaper"
     ]
   },
@@ -41,10 +42,9 @@
     "link": "https://dcustudentlife.ie",
     "image": "dcusu_logo.webp",
     "description": [
-      "Involved with solving any problems that the class group may have.",
-      "Relaying important information / changes to the class group",
-      "Liaising with lecturers regarding assignment extensions, course resources, and more",
-      "Collecting and managing student-submitted materials for our Java module"
+      "Responsible for solving any problems that the class group may have",
+      "Relaying important information/changes to the class group",
+      "Working with lectures and faculty to solve issues regarding assessments, timetables, and examinations"
     ]
   }
 ]
