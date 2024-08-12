@@ -6,20 +6,21 @@
     "link": "https://redbrick.dcu.ie",
     "image": "redbrick_logo.webp",
     "description": [
-      "Responsible for running the weekly committee meetings, ensuring order and time-keeping",
-      "Overseeing the running of the society as a whole and enabling each member of the committee to do their best work",
+      "Leading the weekly committee meetings, ensuring order and timekeeping.",
+      "Overseeing the running of the society as a whole and enabling each member of the committee to complete tasks.",
       "Previous: Redbrick Secretary (March 2023 - March 2024)"
     ]
   },
   {
     "year": "March 2024 - Present",
-    "position": "Webmaster / MERN Stack Developer",
+    "position": "Webmaster / React & Firebase Developer",
     "company": "DCU Fotosoc",
     "link": "https://dcufotosoc.jakefarrell.ie",
     "image": "fotosoc_logo.webp",
     "description": [
-      "Developing a full stack website built using the MERN ( MongoDB, Express, React, Node) to showcase all aspects of DCU Fotosoc",
-      "Utilising the Stripe API to allow for the sale of merchandise and yearly photo book"
+      "Developing a full stack website built using React & Firebase to showcase all aspects of DCU Fotosoc.",
+      "Utilising the Stripe API to allow for the sale of merchandise and yearly photo book.",
+      "Liaising with the committee to develop the website with the society’s vision in mind."
     ]
   },
   {
@@ -29,10 +30,11 @@
     "link": "https://dcumps.ie",
     "image": "dcumps_logo.webp",
     "description": [
-      "Developed a custom website using Bootstrap & Django for the society",
-      "Developed a dynamic donation bar for our yearly 24-Hour Broadcast which raised over €12,800 for Jack & Jill Children's Foundation",
-      "Configured an email system that provides committee members with professional emails",
-      "Maintaining a WordPress website with over 6,000+ articles and over 13+ years of content for The College View newspaper"
+      "Built a custom website using Bootstrap & Django for the society.",
+      "Implemented a live donation bar for the yearly 24-Hour Broadcast which raised over €12,800 for Jack & Jill Children’s Foundation.",
+      "Configured an email system that provides committee members with professional emails.",
+      "Maintaining a WordPress website with over 6,000+ articles and over 13+ years of content for The College View newspaper.",
+      "Building a Flutter iOS and Android app for The College View that queries the WordPress REST API for article and page data."
     ]
   },
   {
@@ -42,9 +44,9 @@
     "link": "https://dcustudentlife.ie",
     "image": "dcusu_logo.webp",
     "description": [
-      "Responsible for solving any problems that the class group may have",
-      "Relaying important information/changes to the class group",
-      "Working with lectures and faculty to solve issues regarding assessments, timetables, and examinations"
+      "Responsible for solving any problems that the class group may have.",
+      "Relaying important information/changes to the class group.",
+      "Working with lecturers and faculty to resolve issues regarding assessments, timetables, and examinations."
     ]
   }
 ]
