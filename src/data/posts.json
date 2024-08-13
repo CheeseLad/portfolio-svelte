@@ -1,20 +1,21 @@
 [
   {
-    "title": "Experiences, Algorithms and Improvements",
-    "description": "This is a blog post",
-    "techStack": ["CA115"],
-    "demoLink": "https://dcumps.ie"
+    "id": 1,
+    "title": "What is digital innovation?",
+    "date": "2023-01-20",
+    "content": "ca115_week1.md",
+    "tags": ["CA115", "Blog"]
   },
   {
-    "title": "Business Plan Recommendations",
-    "description": "This is a blog post",
-    "techStack": ["CA115"],
-    "demoLink": "https://dcumps.ie"
+    "id": 2,
+    "title": "My thoughts on www.christitus.com",
+    "content": "ca115_week2.md",
+    "tags": ["CA115", "Blog"]
   },
   {
+    "id": 3,
     "title": "CO2, What can we do?",
-    "description": "This is a blog post",
-    "techStack": ["CA115"],
-    "demoLink": "https://dcumps.ie"
+    "content": "This is a blog post",
+    "tags": ["CA115", "Blog"]
   }
 ]

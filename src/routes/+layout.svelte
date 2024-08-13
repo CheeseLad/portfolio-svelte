@@ -7,7 +7,15 @@
 </script>
 
 <svelte:head>
-  <title>{$page.url.pathname.replaceAll('-', ' ')}</title> 
+  <meta name="description" content="Jake Farrell's Portfolio Website.">
+  <meta name="keywords" content="portfolio, web developer, software engineer, homelab, career, photography, designer, Jake Farrell">
+  <meta property="og:description" content="Jake Farrell's Portfolio Website.">
+  <meta property="og:image" content="jake.webp">
+  <meta property="og:url" content="https://jakefarrell.ie">
+  <meta name="twitter:card" content="Jake Farrell">
+  <meta name="twitter:description" content="Jake Farrell's Portfolio Website.">
+  <meta name="twitter:image" content="jake.webp">
+  <script defer data-domain="jakefarrell.ie" src="https://plausible.jakefarrell.ie/js/script.js"></script> 
 </svelte:head>
 
 <Intro />

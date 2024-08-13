@@ -1,8 +1,6 @@
 <script>
-  import Experience from '../components/experience.svelte';
-	import Projects from '../components/projects.svelte';
-	import Skills from '../components/skills.svelte';
-  let pageText = 'Home';
+  import Photography from "../../components/photography.svelte";
+  let pageText = 'Photography';
 </script>
 
 <svelte:head>
@@ -12,8 +10,7 @@
 </svelte:head>
 
 <div>
-  <Projects />
-  <Experience />
-  <Skills />
+  <Photography />
+
 </div>
 

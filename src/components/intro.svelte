@@ -1,5 +1,5 @@
 <script>
-  import { faServer, faEnvelope, faFileLines } from '@fortawesome/free-solid-svg-icons';
+  import { faServer, faEnvelope, faFileLines, faCamera, faPenToSquare, faHouse } from '@fortawesome/free-solid-svg-icons';
   import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
   import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
   import { base } from '$app/paths';
@@ -7,7 +7,7 @@
 
 
 <div class="bg-gray-800 text-white py-12 text-center">
-  <img src="jake.webp" alt="Jake Farrell" class="rounded-full w-48 h-48 mx-auto mb-4 transform hover:scale-110 transition duration-300">
+  <a href="/"><img src="jake.webp" alt="Jake Farrell" class="rounded-full w-48 h-48 mx-auto mb-4 transform hover:scale-110 transition duration-300"></a>
   <h1 class="text-3xl font-bold mb-2">Jake Farrell</h1>
   <p class="text-lg mb-6">Student & Full-Stack Software Engineer</p>
   <div class="flex justify-center">
@@ -25,6 +25,20 @@
     </a>
   </div>
   <div class="pt-6">
+    <a href="/" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1">
+      <FontAwesomeIcon icon={faHouse} />
+      Home
+    </a>
+    <a href="/photography" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1">
+      <FontAwesomeIcon icon={faCamera} />
+      Photography
+    </a>
+    <!--<a href="/blog" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1">
+      <FontAwesomeIcon icon={faPenToSquare} class="mr-2" />
+      Blog
+    </a>-->
+  </div>
+  <div class="pt-8">
     <a href="{base}/Jake_Farrell_CV_2024.pdf" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1">
       <FontAwesomeIcon icon={faFileLines} />
       Résumé / CV
@@ -33,6 +47,7 @@
     <FontAwesomeIcon icon={faServer} />
     Home Server Dashboard
   </a>
+
 </div>
 </div>
 
