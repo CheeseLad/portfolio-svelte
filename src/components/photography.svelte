@@ -1,6 +1,6 @@
 <script>
   import skillsData from '../data/photography.json';
-  import Modal from '../components/Modal.svelte';
+  import Modal from './modal.svelte';
   import Returnhome from './returnhome.svelte';
 
   let selectedSkill = null;
