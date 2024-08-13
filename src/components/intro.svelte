@@ -9,7 +9,7 @@
 <div class="bg-gray-800 text-white py-12 text-center">
   <a href="/"><img src="jake.webp" alt="Jake Farrell" class="rounded-full w-48 h-48 mx-auto mb-4 transform hover:scale-110 transition duration-300"></a>
   <h1 class="text-3xl font-bold mb-2">Jake Farrell</h1>
-  <p class="text-lg mb-6">Student & Full-Stack Software Engineer</p>
+  <p class="text-lg mb-6">DCU Computer Science Student & Full-Stack Software Engineer</p>
   <div class="flex justify-center">
     <a href="https://github.com/CheeseLad" target="_blank" class="hover:text-gray-700 transform hover:scale-110 transition duration-300">
       <FontAwesomeIcon icon={faGithub} class="text-white text-3xl mr-4" />
