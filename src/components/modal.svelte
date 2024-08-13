@@ -35,7 +35,7 @@
     class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
     on:click={handleOutsideClick}
   >
-    <div class="bg-white rounded-lg overflow-hidden max-w-lg w-full relative">
+    <div class="bg-white rounded-lg overflow-hidden max-w-lg w-full relative mx-6">
       <button
       on:click={closeModal}
       class="absolute top-4 right-4 w-10 h-10 flex items-center justify-center bg-black text-white rounded-full transition-colors duration-105 hover:bg-gray-600"
