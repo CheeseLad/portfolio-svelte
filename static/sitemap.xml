@@ -1,17 +1,19 @@
-<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <!--
- created with Free Online Sitemap Generator www.xml-sitemaps.com 
--->
-  <url>
-    <loc>https://jakefarrell.ie/</loc>
-    <lastmod>2024-08-12T23:56:16+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://jakefarrell.ie/photography</loc>
-    <lastmod>2024-08-12T23:56:16+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://jakefarrell.ie/Jake_Farrell_CV_2024.pdf</loc>
-    <lastmod>2024-08-12T23:56:16+00:00</lastmod>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://jakefarrell.ie/</loc>
+	<lastmod>2024-08-22T04:48:15+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://jakefarrell.ie/photography</loc>
+	<lastmod>2024-08-22T04:48:15+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jakefarrell.ie/Jake_Farrell_CV_2024.pdf</loc>
+	<lastmod>2024-08-22T04:48:15+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
 </urlset>
