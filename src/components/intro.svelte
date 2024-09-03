@@ -37,7 +37,7 @@
   </div>
   
   <div class="flex justify-center flex-wrap">
-    <a href="{base}/Jake_Farrell_CV_2024.pdf" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center">
+    <a href="{base}/Jake_Farrell_CV.pdf" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mt-4 mx-1 min-w-[140px] text-center">
       <FontAwesomeIcon icon={faFileLines} class="mr-2" />
       Résumé / CV
     </a>
