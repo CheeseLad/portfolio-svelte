@@ -40,7 +40,7 @@ const Intro = () => {
           />
         </Link>
         <Link
-          to="https://www.linkedin.com/in/jake-farrell-2a4674239"
+          to="https://www.linkedin.com/in/jake-farrell-cs"
           target="_blank"
           className="hover:text-blue-700 transform hover:scale-110 transition duration-300"
         >

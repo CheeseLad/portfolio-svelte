@@ -1,0 +1,9 @@
+services:
+  portfolio-svelte:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: portfolio-svelte
+    restart: unless-stopped
+    ports:
+      - "80:80"
