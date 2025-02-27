@@ -1,15 +1,22 @@
-FROM node:21-alpine AS build
+FROM node:20.11.1-alpine3.19 AS build
+
 WORKDIR /app
-COPY package.json package-lock.json ./
+
+COPY package.json ./
+
 RUN npm install
-COPY . ./
+
+ENV PATH /app/node_modules/.bin:$PATH
+
+COPY . .
+
 RUN npm run build
 
-FROM nginx:latest as prod
+FROM nginx:1.25.4-alpine3.18
 
-COPY --from=build /app/build /usr/share/nginx/html
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY ./nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=build /app/dist /var/www/html/
 
-EXPOSE 80/tcp
+EXPOSE 5173
 
-CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
+ENTRYPOINT ["nginx","-g","daemon off;"]

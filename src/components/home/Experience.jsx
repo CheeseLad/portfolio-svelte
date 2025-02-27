@@ -1,5 +1,6 @@
 import React from 'react';
 import experienceData from '../../data/experience.json';
+import { Link } from 'react-router';
 
 const Experience = () => {
   return (
@@ -15,14 +16,14 @@ const Experience = () => {
             <div className="flex-1 mx-4">
               <p className="font-bold">
                 {experience.position} - {""}
-                <a
-                  href={experience.link}
+                <Link
+                  to={experience.link}
                   className="text-blue-500 hover:text-blue-600"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   {experience.company}
-                </a>
+                </Link>
               </p>
               <p className="text-lg">{experience.year}</p>
               <ul className="list-disc list-inside">

@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router';
 
 const Modal = ({ isOpen, imageSrc, title, onClose }) => {
   useEffect(() => {
@@ -26,7 +27,7 @@ const Modal = ({ isOpen, imageSrc, title, onClose }) => {
       <div className="bg-transparent shadow-2xl rounded-2xl flex flex-col relative mx-4">
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 w-12 h-12 flex items-center justify-center bg-black text-white rounded-full transition-colors duration-150 hover:bg-gray-600"
+          className="absolute top-4 right-4 w-12 h-12 flex items-center justify-center bg-black text-white rounded-full transition-colors duration-150 hover:bg-gray-600 cursor-pointer"
         >
           <FontAwesomeIcon icon={faTimes} className="text-2xl" />
         </button>
@@ -35,9 +36,9 @@ const Modal = ({ isOpen, imageSrc, title, onClose }) => {
         </div>
         <div className="bg-white p-6 rounded-b-2xl flex flex-col items-center">
           <h3 className="text-2xl font-semibold text-center mb-4">{title}</h3>
-          <a href={imageSrc} download={title} className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded">
+          <Link to={imageSrc} download={title} className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded">
             Download
-          </a>
+          </Link>
         </div>
       </div>
     </div>

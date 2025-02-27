@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import PostData from '../data/posts.json';
 import ReturnHome from './ReturnHome';
 import { markdownToHtml } from '../utils/markdown';
+import { Link } from 'react-router';
 
 const BlogPosts = () => {
   const [content, setContent] = useState('');
@@ -54,10 +55,10 @@ const BlogPosts = () => {
                   </div>
                   <div className="flex justify-between">
                     <div className="flex justify-start">
-                      <a href={`/blog/${project.id}`} className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 flex items-center">
+                      <Link to={`/blog/${project.id}`} className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 flex items-center">
                         <FontAwesomeIcon icon={faPenToSquare} className="mr-2" />
                         Read More
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

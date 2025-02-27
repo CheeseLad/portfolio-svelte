@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import ButtonRow from '../layout/ButtonRow';
+import { Link } from 'react-router';
 
 const chunkArray = (array, size) => {
   const result = [];
@@ -19,7 +20,7 @@ const Projects = () => {
   return (
     <div className="container mx-auto py-12">
       <h2 className="text-3xl font-bold text-center mb-8">Projects</h2>
-      <ButtonRow />
+      {/*<ButtonRow />*/}
       {projectsRows.map((projectsRow, rowIndex) => (
         <div key={rowIndex} className="flex flex-wrap mx-6">
           {projectsRow.map((project, projectIndex) => (
@@ -38,25 +39,25 @@ const Projects = () => {
                   </div>
                   <div className="flex justify-between">
                     <div className="flex justify-start">
-                      <a
-                        href={project.demoLink}
+                      <Link
+                        to={project.demoLink}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition duration-300 mr-4"
                       >
                         <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="mr-2" />
                         View Project
-                      </a>
+                      </Link>
                     </div>
                     <div className="flex justify-end">
-                      <a
-                        href={project.codeLink}
+                      <Link
+                        to={project.codeLink}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded-md transition duration-300"
                       >
                         <FontAwesomeIcon icon={faGithub} />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

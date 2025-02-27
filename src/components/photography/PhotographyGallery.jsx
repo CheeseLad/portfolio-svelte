@@ -2,6 +2,7 @@ import { useState } from 'react';
 import photographyData from '../../data/photography.json';
 import Modal from './Modal';
 import ReturnHome from '../layout/ReturnHome';
+import { Link } from 'react-router';
 
 const PhotographyGallery = () => {
   const [selectedPhoto, setSelectedPhoto] = useState(null);
@@ -40,13 +41,13 @@ const PhotographyGallery = () => {
             >
               <div className="flex justify-between">
                 <h3 className="text-xl font-bold">{photo.title}</h3>
-                <a
-                  href={photo.imageUrl}
+                <Link
+                  to={photo.imageUrl}
                   download
                   className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
                 >
                   Download
-                </a>
+                </Link>
               </div>
             </div>
           </div>
