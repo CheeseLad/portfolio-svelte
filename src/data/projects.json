@@ -20,7 +20,7 @@
     "description": "Developing a full stack website built using React, TailwindCSS and Firebase to fulfil the requirements of the society. Utilising the Stripe API to allow the society to sell merchandise and our yearly photo collection book.",
     "image": "fotosoc.webp",
     "techStack": ["React", "Firebase", "Tailwind CSS", "Stripe API"],
-    "demoLink": "https://dcufotosoc.jakefarrell.ie",
+    "demoLink": "https://dcufotosoc.ie",
     "codeLink": "https://github.com/CheeseLad/fotosoc"
   },
   {
