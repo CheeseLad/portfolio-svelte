@@ -9,6 +9,7 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Error from "./components/other/Error.jsx";
+//import DCUSolarRacing from "./components/photography/DCUSolarRacing.jsx";
 
 const root = document.getElementById("root");
 
@@ -20,9 +21,11 @@ ReactDOM.createRoot(root).render(
         element={
           <div>
             <Intro />
-            <Projects />
-            <Experience />
-            <Skills />
+            <div className="bg-gray-300">
+              <Projects />
+              <Experience />
+              <Skills />
+            </div>
             <Footer />
           </div>
         }
@@ -30,9 +33,22 @@ ReactDOM.createRoot(root).render(
       <Route
         path="/photography"
         element={
-          <div>
+          <div className="bg-gray-300 min-h-screen flex flex-col">
             <Intro />
-            <PhotographyGallery />
+            <div className="flex-grow">
+              <PhotographyGallery />
+            </div>
+            <Footer />
+          </div>
+        }
+      />
+      <Route
+        path="/photography/dcu-solar-racing"
+        element={
+          <div className="bg-gray-300 min-h-screen flex flex-col">
+            <Intro />
+            <div className="flex-grow"></div>
+            {/*<DCUSolarRacing />*/}
             <Footer />
           </div>
         }
@@ -42,7 +58,9 @@ ReactDOM.createRoot(root).render(
         element={
           <div>
             <Intro />
-            <Error />
+            <div className="bg-gray-300">
+              <Error />
+            </div>
             <Footer />
           </div>
         }

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router';
 
-const Modal = ({ isOpen, imageSrc, title, onClose }) => {
+const Modal = ({ isOpen, imageSrc, title, author, camera, onClose }) => {
   useEffect(() => {
     const handleKeyDown = (event) => {
       if (event.key === 'Escape') {
@@ -36,9 +36,10 @@ const Modal = ({ isOpen, imageSrc, title, onClose }) => {
         </div>
         <div className="bg-white p-6 rounded-b-2xl flex flex-col items-center">
           <h3 className="text-2xl font-semibold text-center mb-4">{title}</h3>
-          <Link to={imageSrc} download={title} className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded">
+          <h4 className="text-xl font-semibold text-center mb-4">{camera}</h4>
+          <a href={imageSrc} download={imageSrc} className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded">
             Download
-          </Link>
+          </a>
         </div>
       </div>
     </div>

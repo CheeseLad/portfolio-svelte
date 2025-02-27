@@ -1,26 +1,38 @@
 [
-  {
-    "title": "Gallery Image",
-    "imageUrl": "IMG_0221.jpg"
-  },
-  {
-    "title": "Gallery Image",
-    "imageUrl": "IMG_1402.jpg"
-  },
-  {
-    "title": "Gallery Image",
-    "imageUrl": "IMG_1894.jpg"
-  },
-  {
-    "title": "Gallery Image",
-    "imageUrl": "IMG_3241.jpg"
-  },
-  {
-    "title": "Gallery Image",
-    "imageUrl": "IMG_3518.jpg"
-  },
-  {
-    "title": "Gallery Image",
-    "imageUrl": "IMG_6167.jpg"
-  }
+	{
+		"title": "🟩 Jake Farrell",
+		"imageUrl": "IMG_0221.jpg",
+		"author": "Jake Farrell",
+		"camera": "📸 iPhone 6s"
+	},
+	{
+		"title": "🟩 Jake Farrell",
+		"imageUrl": "IMG_1402.jpg",
+		"author": "Jake Farrell",
+		"camera": "📸 iPhone 13 Pro"
+	},
+	{
+		"title": "🟩 Jake Farrell",
+		"imageUrl": "IMG_1894.jpg",
+		"author": "Jake Farrell",
+		"camera": "📸 iPhone 13 Pro"
+	},
+	{
+		"title": "🟩 Jake Farrell",
+		"imageUrl": "IMG_3241.jpg",
+		"author": "Jake Farrell",
+		"camera": "📸 iPhone 13 Pro"
+	},
+	{
+		"title": "🟩 Jake Farrell",
+		"imageUrl": "IMG_3518.jpg",
+		"author": "Jake Farrell",
+		"camera": "📸 iPhone 13 Pro"
+	},
+	{
+		"title": "🟩 Jake Farrell",
+		"imageUrl": "IMG_6167.jpg",
+		"author": "Jake Farrell",
+		"camera": "📸 iPhone 13 Pro"
+	}
 ]

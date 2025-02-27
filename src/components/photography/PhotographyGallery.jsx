@@ -41,13 +41,13 @@ const PhotographyGallery = () => {
             >
               <div className="flex justify-between">
                 <h3 className="text-xl font-bold">{photo.title}</h3>
-                <Link
-                  to={photo.imageUrl}
+                <a
+                  href={photo.imageUrl}
                   download
                   className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
                 >
                   Download
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -59,6 +59,8 @@ const PhotographyGallery = () => {
           isOpen={isModalOpen}
           imageSrc={selectedPhoto.imageUrl}
           title={selectedPhoto.title}
+          author={selectedPhoto.author}
+          camera={selectedPhoto.camera}
           onClose={closeModal}
         />
       )}
